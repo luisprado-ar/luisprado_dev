@@ -1,0 +1,80 @@
+*{
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.navbar{
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(41,41,41,1) 45%, rgba(248,49,255,1) 100%);
+    padding: 10px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    height: 80%;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    color: #f831ff;
+}
+
+
+.logo {
+    width: 13%;
+}
+video {
+    width:30%;
+}
+/* .menu ul li{
+    margin: 0 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+} */
+
+a{
+    display: flex;
+    margin: 0 2%;
+    text-decoration: none;
+    color: #f831ff;
+    transition: 0.5s;
+}
+
+ul#nav li a{
+    position: relative;
+    color:#FFF;
+    overflow:hidden;
+}
+ul#nav li a:before{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    padding: 10px 20px;
+    background: none repeat scroll 0% 0% #FFF;
+    color: #f831ff;
+    content: attr(title);
+    transition: transform 0.3s ease 0s;
+}
+ul#nav li a span{
+    display: block;
+    position: relative;
+    padding: 10px 20px;
+    background: none repeat scroll 0% 0% #f800ff;
+    transition: transform 0.3s ease 0s;
+    z-index: 2;
+}
+
+ul#nav li a:hover span{
+    transform: translatex(100%);
+}
