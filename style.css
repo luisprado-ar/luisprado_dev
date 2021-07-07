@@ -1,11 +1,12 @@
 *{
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'Anton', sans-serif;
 }
-
 .navbar{
     width: 100%;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(41,41,41,1) 45%, rgba(248,49,255,1) 100%);
+    background: rgb(0,0,0);
+background: linear-gradient(140deg, rgba(0,0,0,1) 0%, rgba(41,41,41,1) 46%, rgba(21,219,207,1) 100%);
     padding: 10px 50px;
     display: flex;
     justify-content: space-between;
@@ -24,7 +25,7 @@
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    color: #f831ff;
+    color: #15dbcf;
 }
 
 
@@ -52,7 +53,7 @@ a{
 
 ul#nav li a{
     position: relative;
-    color:#FFF;
+    color: #222222;
     overflow:hidden;
 }
 ul#nav li a:before{
@@ -61,8 +62,8 @@ ul#nav li a:before{
     left: 0px;
     z-index: 1;
     padding: 10px 20px;
-    background: none repeat scroll 0% 0% #FFF;
-    color: #f831ff;
+    background: none repeat scroll 0% 0% #222222;
+    color: #15dbcf;
     content: attr(title);
     transition: transform 0.3s ease 0s;
 }
@@ -70,7 +71,7 @@ ul#nav li a span{
     display: block;
     position: relative;
     padding: 10px 20px;
-    background: none repeat scroll 0% 0% #f800ff;
+    background: none repeat scroll 0% 0% #15dbcf;
     transition: transform 0.3s ease 0s;
     z-index: 2;
 }
